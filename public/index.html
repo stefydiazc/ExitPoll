@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es-EC">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        
+        <title>Programación Script</title>
+        
+        <link rel="icon" type="image/png" href="images/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
+        
+        <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script> <!-- ¡Primero jQuery antes de Bootstrap! -->
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/anychart.min.js" type="text/javascript"></script>
+        <script src="js/sweetalert.min.js" type="text/javascript"></script>
+
+        <script src="js/01-json.js" type="text/javascript"></script>
+        <script src="js/02-clases-01.js" type="text/javascript"></script>
+        <script src="js/02-clases-02.js" type="text/javascript"></script>
+        <script src="js/03-systemStart.js" type="text/javascript"></script>
+        <script src="js/04-login.js" type="text/javascript"></script>
+        <script src="js/05-01-administrador.js" type="text/javascript"></script>
+        <script src="js/05-02-encuestador.js" type="text/javascript"></script>
+        <script src="js/06-htmlUI.js" type="text/javascript"></script>
+        
+        <!-- Quick test -->
+        <script src="js/quickTest.js"></script>
+    </head>
+    
+    <body>
+        <!-- Espacio de trabajo -->
+        <div id="workspace">
+            <!-- Inicio de sesión -->
+            <div id="formLogin">
+                <!-- Cabecera -->
+                <div class="jumbotron text-center">
+                    <h2><abbr title="Sistema Exit poll (Encuesta a boca de urna)">SEP</abbr> v1.0</h2>
+                    <p>Elecciones 2017 Ecuador</p>
+                </div>
+                <!-- Maquetación formulario -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-1 col-sm-4"></div>
+                        <!-- Formulario -->
+                        <div class="col-xs-10 col-sm-4">
+                            <h4>Inicio de sesión</h4>
+
+                            <!--    ¿Diferencia entre action, actionlistener, onClick?
+                                    http://stackoverflow.com/questions/21438721/jsf-difference-between-action-actionlistener-onclick?answertab=active#tab-top -->
+                            
+                            <form action="javascript:login()" method="post" name="frmLogin">
+                                <!-- Usuario -->
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                    <input type="text" class="form-control" name="formInputUser" placeholder="Usuario" required>
+                                </div><br>
+                                <!-- Contraseña -->
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                    <input type="password" class="form-control" name="formInputPassword" placeholder="Contraseña" required>
+                                </div><br>
+                                <!-- Entrar -->
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-default" name="formInputSubmit">Entrar</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-xs-1 col-sm-4"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="footer container-fluid text-center">
+            <p>PROYECTO PARCIAL II TÉRMINO, 2016 - 2017</p>
+        </footer>
+    </body>
+</html>

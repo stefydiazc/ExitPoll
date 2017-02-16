@@ -1,0 +1,12 @@
+{
+	
+    "dependencies" : {
+        "express" : "*",
+        "ejs" : "*",
+        "body-parser" : "*",
+        "cookie-parser" : "*",
+        "multer" : "*",
+        "fs" : "*",
+        "node-localstorage" : "*"
+    }
+}
