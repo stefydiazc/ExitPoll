@@ -1,0 +1,43 @@
+{
+	"usuarios" : [
+        {
+         
+         "administradores":[
+            {
+               "usuario":"admin",
+               "clave":"admin",
+               "cedula":"0924289564",
+               "fechaNacimiento":"1991-03-31",
+               "nombres":"ESTEFANIA",
+               "apellidos":"DIAZ CARRASCO",
+               "foto":"pathImgFile"
+            }
+         ]
+      },
+      {
+         
+         "encuestadores":[
+            {
+               "usuario":"encu01",
+               "clave":"encu01",
+               "cedula":"0919568261",
+               "fechaNacimiento":"1990-11-29",
+               "nombres":"MARIA GABRIELA",
+               "apellidos":"REQUENA HOJAS",
+               "foto":"pathImgFile"
+            },
+            
+            {
+               "usuario":"encu02",
+               "clave":"encu02",
+               "cedula":"0926745894",
+               "fechaNacimiento":"1985-08-28",
+               "nombres":"BYRON FABRICIO",
+               "apellidos":"HERRERA PILLAJO",
+               "foto":"pathImgFile"
+            }
+            
+         ]
+      }
+	]
+}
